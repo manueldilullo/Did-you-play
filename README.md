@@ -1,18 +1,3 @@
----
-title: Did you play
-author: Manuel Di LUllo
-date: November 12th, 2021
-
-header-includes: 
-   \usepackage{graphicx}
-   \usepackage{fancyhdr}
-   \pagestyle{fancy}
-   \setlength\headheight{28pt}
-   \fancyhead[L]{\includegraphics[width=5cm]{images/logo.png}}
-   \fancyfoot[LE,RO]{GPIM}
-output: pdf_document
----
-
 <p align="center">
   <img width="200" src="images/logo.png" alt="Did You Play logo">
   <h1 align="center"> Did you play? </h1> 
