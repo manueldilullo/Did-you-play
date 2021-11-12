@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="10dp"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12sp"
+                android:textColor="@color/magenta"
+                android:textSize="@dimen/gameslist_text_label" />
+
+            <View
+                android:id="@+id/lineHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginHorizontal="@dimen/gameinfo_vertical_margin"
+                android:background="@color/magenta"
+                app:layout_constraintStart_toEndOf="@+id/ivCategoryIcon"
+                app:layout_constraintTop_toBottomOf="@+id/tvCategoryName" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="horizontal">
+
+                <!--Child RecyclerView-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvChildRecyclerview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

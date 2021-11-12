@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Did you play?</string>
+
+    <!-- Servlets urls -->
+    <string name="urlUserServlet">http://10.0.2.2:8080/DidYouPlay/UserServlet</string>
+    <string name="urlVideogameServlet">http://10.0.2.2:8080/DidYouPlay/VideogameServlet</string>
+    <string name="urlPopularServlet">http://10.0.2.2:8080/DidYouPlay/PopularServlet</string>
+    <string name="urlPlayedServlet">http://10.0.2.2:8080/DidYouPlay/PlayedServlet</string>
+    <string name="urlAwaitedServlet">http://10.0.2.2:8080/DidYouPlay/AwaitedServlet</string>
+    <string name="urlReccomendationServlet">http://10.0.2.2:8080/DidYouPlay/ReccomendationServlet</string>
+
+    <!-- Fragments titles -->
+    <string name="fragment_popular_title">Popular</string>
+    <string name="fragment_played_title">Played</string>
+    <string name="fragment_awaited_title">Awaited</string>
+
+    <!-- Main menu titles -->
+    <string name="search">Search</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_surname">Surname</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_birthday">Pick your birthdate</string>
+    <string name="default_birthdate">1900-01-01</string>
+    <string name="prompt_gender_male">Male</string>
+    <string name="prompt_gender_female">Female</string>
+    <string name="prompt_gender_other">Other</string>
+
+    <string name="check_remember_me">Remember me</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+
+    <!-- login errors -->
+    <string name="signup_password_dont_match">Password and Confirm Password dont match</string>
+    <string name="signup_missing_values">Must specify name, surname, username, email</string>
+    <string name="password_too_short">Password must be >8 characters long</string>
+    <string name="login_missing_username">The username is missing</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Game Activity -->
+    <string name="gameinfo_category_companies">Companies</string>
+    <string name="gameinfo_category_genres">Genres</string>
+    <string name="gameinfo_category_release">Release date</string>
+    <string name="gameinfo_category_storyline">Storyline</string>
+    <string name="gameinfo_category_summary">Summary</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_share_title">Share this game!</string>
+    <string name="dialog_rating_tag">Rating</string>
+    <string name="dialog_rating_title">Rate this game!</string>
+    <string name="dialog_delete_message">Delete this element?</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Http Actions developed in the Servlets -->
+    <string name="userservlet_action_authorization">authorization</string>
+    <string name="userservlet_action_registration">register</string>
+
+    <string name="videgoameservlet_action_single">single</string>
+    <string name="videgoameservlet_action_list">list</string>
+
+    <!-- Network Response messages -->
+    <string name="response_successful">Successful</string>
+    <string name="response_successfully_added">Successfully added</string>
+    <string name="response_successfully_deleted">Successfully deleted</string>
+    <string name="timeout">Request timeout</string>
+    <string name="nointernet">Internet unavailable</string>
+    <string name="generic_error">Generic error</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="reccomendation_message">Reccomended a game to you!</string>
+
+    <!-- Settings preferences -->
+    <string name="settings_signout">Signout</string>
+
+    <!-- Notification channel -->
+    <string name="channel_name">DidYouPlay?</string>
+    <string name="channel_description">A notification channel for "Did You Play?" application</string>
+    <string name="game_released_notification">Hey Gamer! A game you were awaiting is finally out!</string>
+</resources>

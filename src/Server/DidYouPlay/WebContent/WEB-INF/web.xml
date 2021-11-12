@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>Did You Play</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+	<!-- CONTEXT PARAMETERS -->
+	<context-param>
+		<param-name>ip</param-name>
+		<param-value>127.0.0.1</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>port</param-name>
+		<param-value>3306</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>dbName</param-name>
+		<param-value>dup</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>userName</param-name>
+		<param-value>dup_admin</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>d1D100Pl4138?</param-value>
+	</context-param>	
+		
+	<!-- SERVLETS DEFINITION-->
+	<servlet>
+		<description></description>
+		<display-name>UserServlet</display-name>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>it.uniroma2.pjdm.didyouplayed.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>VideogameServlet</display-name>
+		<servlet-name>VideogameServlet</servlet-name>
+		<servlet-class>it.uniroma2.pjdm.didyouplayed.servlet.VideogameServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VideogameServlet</servlet-name>
+		<url-pattern>/VideogameServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>ReccomendationServlet</display-name>
+		<servlet-name>ReccomendationServlet</servlet-name>
+		<servlet-class>it.uniroma2.pjdm.didyouplayed.servlet.ReccomendationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReccomendationServlet</servlet-name>
+		<url-pattern>/ReccomendationServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description></description>
+		<display-name>PopularServlet</display-name>
+		<servlet-name>PopularServlet</servlet-name>
+		<servlet-class>it.uniroma2.pjdm.didyouplayed.servlet.PopularServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PopularServlet</servlet-name>
+		<url-pattern>/PopularServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description></description>
+		<display-name>PlayedServlet</display-name>
+		<servlet-name>PlayedServlet</servlet-name>
+		<servlet-class>it.uniroma2.pjdm.didyouplayed.servlet.PlayedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PlayedServlet</servlet-name>
+		<url-pattern>/PlayedServlet</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<description></description>
+		<display-name>AwaitedServlet</display-name>
+		<servlet-name>AwaitedServlet</servlet-name>
+		<servlet-class>it.uniroma2.pjdm.didyouplayed.servlet.AwaitedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AwaitedServlet</servlet-name>
+		<url-pattern>/AwaitedServlet</url-pattern>
+	</servlet-mapping>	
+</web-app>

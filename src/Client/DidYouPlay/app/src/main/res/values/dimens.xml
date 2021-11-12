@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+
+    <!-- Login fragment buttons -->
+    <dimen name="login_button_height">52dp</dimen>
+    <dimen name="login_button_text">14dp</dimen>
+    <dimen name="login_form_padding">16dp</dimen>
+    <dimen name="login_form_margin">32dp</dimen>
+    <dimen name="form_error_text">18sp</dimen>
+
+    <!-- Games list Recycler view -->
+    <dimen name="gameslist_card_height">250dp</dimen>
+    <dimen name="gameslist_text_label">24sp</dimen>
+    <dimen name="gameslist_icon_label_height">48sp</dimen>
+    <dimen name="gameslist_icon_label_width">48sp</dimen>
+
+    <!-- Game activity -->
+    <dimen name="gamesinfo_cover_size">250sp</dimen>
+    <dimen name="gameinfo_horizontal_margin">2dp</dimen>
+    <dimen name="gameinfo_vertical_margin">8dp</dimen>
+    <dimen name="gameinfo_vertical_padding">8dp</dimen>
+    <dimen name="gameinfo_row_margin_indented">16dp</dimen>
+    <dimen name="gameinfo_line_spacing">8sp</dimen>
+    <dimen name="gameinfo_rating_circle_radius">72sp</dimen>
+    <dimen name="gameinfo_rating_text_size">28sp</dimen>
+    <dimen name="gameinfo_text_size">16sp</dimen>
+
+    <!-- Reccomendations Activity -->
+    <dimen name="reccomendation_row_top_margin">4sp</dimen>
+    <dimen name="reccomendation_content_size">18sp</dimen>
+    <dimen name="reccomendation_gamecover_width">64sp</dimen>
+    <dimen name="reccomendation_gamecover_height">64sp</dimen>
+    <dimen name="reccomendation_date_size">12sp</dimen>
+</resources>
